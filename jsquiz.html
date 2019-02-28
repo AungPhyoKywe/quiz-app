@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+
+    </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style>
+.b{
+ border-radius: 30px;
+ width: 400px;
+
+}
+.r{
+    border-radius: 30px;
+ width:600px;
+
+}
+.but{
+    border-radius: 30px;
+ width:200px;
+}
+h3{
+  font-family: "Times New Roman", Times, serif;
+}
+</style>
+</head>
+
+<body>
+    <br>
+    <br>
+
+    <center>
+
+        <div id="q" class="shadow p-3 mb-5 bg-white r">
+
+           <center><span class="shadow-lg d-lg-block text-dark b"><h3>QUIZ</h3></span></center>
+            <hr style="margin-bottom:20px;width: 400px;">
+
+            <h3 id="question"></h3>
+                <br>
+
+            <img id="i"src="giphy.gif"style="display:none;"width="100px"height="100px">
+            <button id="choice0"onclick="myFunction()"type="button" class="shadow-lg p-3 mb-5 btn btn but"></button>
+            <button id="choice1"onclick="myFunction()"type="button" class="shadow-lg p-3 mb-5 btn btn but"></button>
+            <br>
+            
+            <button id="choice2"onclick="myFunction()"type="button" class="shadow-lg p-3 mb-5 btn btn but"></button>
+            <button id="choice3"onclick="myFunction()"type="button" class="shadow-lg p-3 mb-5 btn btn but"></button>
+
+            <hr style="margin-bottom:20px;width: 400px;">
+            <span id="progress"></span>
+            </div>
+            
+            
+        </div>
+
+        <script src="app.js"></script>
+        
+</body>
+
+</html>
